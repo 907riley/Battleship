@@ -8,7 +8,8 @@ PA8.o: PA8.cpp PA8.h
 	g++ -c PA8.cpp
 	
 all: PA8main
-	./a.out
+	./PA8main
 
 clean:
-	rm -f PA8main PA8main.cpp 
+	rm -f PA8.o PA8main.o PA8main battleship.log
+
